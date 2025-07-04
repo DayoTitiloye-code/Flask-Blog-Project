@@ -25,7 +25,7 @@ def register():
         elif not last_name:
             error = 'Last name is required, please provide your last name.'
         elif not username:
-            error = 'Username is required.'
+            error = 'Username is required, please provide your username.'
         elif not password:
             error = 'Password is required'
         elif not email:
