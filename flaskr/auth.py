@@ -29,7 +29,7 @@ def register():
         elif not password:
             error = 'Password is required, please provide your password.'
         elif not email:
-            error = 'Email is required'
+            error = 'Email is required, please provide your email.'
 
         if error is None:
             try:
